@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 10_vue_trip
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -28,3 +29,6 @@ npm run dev
 npm run build
 ```
 jhgjk
+=======
+# trip
+>>>>>>> refs/remotes/origin/main
