@@ -1,0 +1,15 @@
+:root {
+  --primary-color:#ff9856;
+  --van-search-left-icon-color:var(--primary-color) !important;
+  --van-index-bar-index-active-color:var(--primary-color) !important;
+  --van-index-anchor-sticky-text-color:var(--primary-color) !important;
+  --theme-linear:linear-gradient(90deg,#fa8c1d,#fcaf3f);
+  --van-primary-color:var(--primary-color) !important;
+}
+.hiden {
+  position: relative;
+  z-index: 8;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
+}

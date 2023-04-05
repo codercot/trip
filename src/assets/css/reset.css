@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  vertical-align: top;
+}
+.tab-page {
+    position: relative;
+    z-index: 8;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: auto;
+}
