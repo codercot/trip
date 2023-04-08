@@ -33,9 +33,9 @@ defineProps({
 
 <style lang="less" scoped>
 .house-item {
-  border-radius: 13px;
+  border-radius: 6px;
   overflow: hidden;
-  margin-top:8px;
+  margin-top:10px;
   .item-inner {
     border: 1px solid #f9f9f9;
     position: relative;

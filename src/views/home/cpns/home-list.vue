@@ -28,10 +28,11 @@ const itemclick = (item) => {
 .content {
   margin-top: 10px;
   padding-bottom: 200px;
-  padding: 0 12px 0;
+  padding: 0 4px 0;
 
   .title {
     font-size: 22px;
+    margin-left: 12px;
   }
 
   .list {

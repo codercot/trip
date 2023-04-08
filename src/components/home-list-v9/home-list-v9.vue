@@ -31,9 +31,9 @@ const score = computed(() => Number(poprs.itemData.commentScore))
 .house-item {
   position: relative;
   width: 170px;
-  border-radius: 13px;
+  border-radius: 6px;
   overflow: hidden;
-  margin-top: 8px;
+  margin-top: 10px;
 
   img {
     width: 170px;
