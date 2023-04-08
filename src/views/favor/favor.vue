@@ -52,7 +52,7 @@ getHistoryData().then((res)=>{
 
 <style lang="less" scoped>
 .content {
-  padding:5px 20px 10px 20px;
+  padding:5px 20px 50px 20px;
   margin: 0 auto;
   margin-top: 20px;
   background-color: #f7f8fb;
