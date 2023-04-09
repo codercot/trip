@@ -84,7 +84,7 @@ const onConfirm = (value) => {
 const homeStore = useHomeStore()
 const { hotSuggest } = storeToRefs(homeStore)
 
-
+console.log(formateMonDay(startDate.value));
 
 // 监听热门搜索点击
 const searchBtn = () => {
@@ -92,8 +92,8 @@ const searchBtn = () => {
   router.push({
     path: "/search",
     query: {
-      startDate: startDate.value,
-      endDate: endDate.value,
+      startDate: formateMonDay(startDate.value,"M.DD"),
+      endDate: formateMonDay(endDate.value,"M.DD"),
       currentCity: currentCity.value.cityName
     }
   })

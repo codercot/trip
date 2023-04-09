@@ -1,8 +1,8 @@
 <template>
-  <van-nav-bar left-arrow @click-left="onClickLeft">
+  <van-nav-bar  @click-left="onClickLeft">
     <template #left>
       <slot name="left">
-        <span @click="btnclick" style="color: #ff9856;font-size: 18px;">{{ LeftText }}</span>
+        <span @click="btnclick" style="color: #ff9856;font-size: 16px;">{{ LeftText }}</span>
       </slot>
     </template>
     <template #title>
@@ -42,4 +42,7 @@ const btnclick =()=>{
 }
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+
+
+</style>

@@ -42,9 +42,10 @@ defineProps({
     background-color: #f5f7fb;
     padding: 10px 0;
     .head {
+      font-size: 12px;
       img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
       }
     }
     .list {
@@ -53,6 +54,7 @@ defineProps({
       flex-wrap: wrap;
 
       .iten {
+        font-size: 12px;
         display: flex;
         width: 50%;
         // justify-content: center;
@@ -60,9 +62,10 @@ defineProps({
 
         .icon_check {
           display: block;
-          width: 24px;
-          height: 24px;
+          width: 12px;
+          height: 12px;
           background: url(../../../assets/img/detail/icon_check.png) no-repeat;
+          background-size: 12px 12px;
         }
         span {
           margin-left: 5px;

@@ -171,9 +171,11 @@ const value = ref(1)
     align-items: center;
     right: 8px;
     top: 30px;
+
     .pad {
       padding: 10px 0;
     }
+
     img {
       height: 30px;
       width: 30px;
@@ -186,6 +188,7 @@ const value = ref(1)
         height: 40px;
       }
     }
+
     .com {
       display: flex;
       flex-direction: column;
@@ -205,4 +208,5 @@ const value = ref(1)
   font-size: 12px;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.5);
-}</style>
+}
+</style>

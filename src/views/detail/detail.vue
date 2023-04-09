@@ -8,8 +8,6 @@
       <detailSwipe :swipe-data="mainPart.topModule.housePicture.housePics" />
       <detail02info :top-infos="mainPart.topModule" />
       <detail03facility :house-facility="mainPart.dynamicModule.facilityModule.houseFacility" />
-      <!-- <Detail04landlord :landlord="mainPart.dynamicModule.landlordModule"/> -->
-      <!-- <detail06notice/> -->
       <detail07Map :position="mainPart.dynamicModule.positionModule" />
     </div>
     <div class="footer">

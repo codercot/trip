@@ -9,20 +9,20 @@ class HYRequest {
       timeout
     })
 
-    this.instance.interceptors.request.use(config => {
-      mainStore.isLoading = true
-      return config
-    }, err => {
-      return err
-    })
+    // this.instance.interceptors.request.use(config => {
+    //   mainStore.isLoading = true
+    //   return config
+    // }, err => {
+    //   return err
+    // })
 
-    this.instance.interceptors.response.use(res => {
-      mainStore.isLoading = false
-      return res
-    }, err => {
-      mainStore.isLoading = false
-      return err
-    })
+    // this.instance.interceptors.response.use(res => {
+    //   mainStore.isLoading = false
+    //   return res
+    // }, err => {
+    //   mainStore.isLoading = false
+    //   return err
+    // })
   }
 
   request(config) {
