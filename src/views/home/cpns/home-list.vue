@@ -26,6 +26,7 @@ const itemclick = (item) => {
 
 <style lang="less" scoped>
 .content {
+  background-color: #f5f7f9;
   margin-top: 10px;
   padding-bottom: 200px;
   padding: 0 4px 0;

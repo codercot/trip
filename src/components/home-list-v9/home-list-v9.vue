@@ -33,7 +33,7 @@ const score = computed(() => Number(poprs.itemData.commentScore))
   width: 170px;
   border-radius: 6px;
   overflow: hidden;
-  margin-top: 11px;
+  margin-top: 10px;
 
   img {
     width: 170px;

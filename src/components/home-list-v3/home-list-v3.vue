@@ -35,7 +35,7 @@ defineProps({
 .house-item {
   border-radius: 6px;
   overflow: hidden;
-  margin-top:11px;
+  margin-top:10px;
   .item-inner {
     border: 1px solid #f9f9f9;
     position: relative;
