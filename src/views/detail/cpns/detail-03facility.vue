@@ -35,6 +35,7 @@ defineProps({
 </script>
 
 <style lang="less" scoped>
+
 .facility-inner {
   .item {
     display: flex;
